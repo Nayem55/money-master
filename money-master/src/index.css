@@ -1,0 +1,85 @@
+h1,h3{
+    color: rgb(60, 148, 148);
+    text-align: center;
+}
+.container{
+    margin: 0 10%;
+   
+}
+img{
+    width: 50%;
+}
+.text-div{
+    width: 50%;
+    background-color: rgba(94, 183, 189, 0.171);
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    display: flex;
+}
+label{
+    margin-left: 30%;
+    margin-right: 2%;
+}
+.label{
+    margin-left: 29%;
+    margin-right: 2%;
+}
+input{
+    padding: 1%;
+    margin-bottom: 5%;
+}
+.button{
+    display: block;
+    background-color: rgb(60, 148, 148); ;
+    color: white;
+    width: 35%;
+    height: 30px;
+    border: none;
+    margin: 0 auto;
+}
+h4{
+    display: inline;
+    margin: 1% 2%;
+}
+
+.save{
+    max-width: 80px;
+    text-align: center;
+}
+.m-save{
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.button2{
+    background-color: rgb(60, 148, 148); ;
+    color: white;
+    width: 17%;
+    height: 30px;
+    border: none;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        margin: 0;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+
+    .text-div{
+        width: 100%;
+        background-color: rgba(94, 183, 189, 0.171);
+    }
+    input{
+        width: 30%;
+    }
+}
+
